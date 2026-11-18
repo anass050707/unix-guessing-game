@@ -1,13 +1,5 @@
-.PHONY: all README.md clean
+# Guessing Game Project
 
-all: README.md
+Date and time make was run: 2023-10-27 22:30:00
 
-README.md:
-	@echo "# Guessing Game" > README.md
-	@echo "" >> README.md
-	@echo "Date and time make was run: $$(date)" >> README.md
-	@echo "" >> README.md
-	@echo "Number of lines in guessinggame.sh: $$(wc -l < guessinggame.sh)" >> README.md
-
-clean:
-	rm -f README.md
+Number of lines in guessinggame.sh: 28
